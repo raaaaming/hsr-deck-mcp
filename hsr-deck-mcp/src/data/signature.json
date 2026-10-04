@@ -1,0 +1,702 @@
+{
+ "_comment": "5성 캐릭터 → 전용 광추(위키 항목 ID). 위키에는 이 관계가 없어 수동 정리. confidence: verified(웹/위키 교차확인) > known(기존 지식+목록 대조) > probable(정황). 4성 캐릭터는 미수록. no_signature: 전용 광추가 없는 캐릭터(확정). pending_data: 위키에 아직 내용이 없는 캐릭터(채워지면 sync가 자동 추정).",
+ "_built": "2026-10-03",
+ "pairs": {
+  "6": {
+   "character": "개척자 • 파멸",
+   "light_cones": [
+    {
+     "id": "76",
+     "name": "어떤 에이언즈의 몰락",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "9": {
+   "character": "히메코",
+   "light_cones": [
+    {
+     "id": "67",
+     "name": "은하철도의 밤",
+     "confidence": "known"
+    }
+   ]
+  },
+  "10": {
+   "character": "웰트",
+   "light_cones": [
+    {
+     "id": "71",
+     "name": "세계의 이름으로",
+     "confidence": "known"
+    }
+   ]
+  },
+  "14": {
+   "character": "브로냐",
+   "light_cones": [
+    {
+     "id": "70",
+     "name": "아직 전투는 끝나지 않았다",
+     "confidence": "known"
+    }
+   ]
+  },
+  "15": {
+   "character": "제레",
+   "light_cones": [
+    {
+     "id": "68",
+     "name": "야경 속에서",
+     "confidence": "known"
+    }
+   ]
+  },
+  "17": {
+   "character": "게파드",
+   "light_cones": [
+    {
+     "id": "72",
+     "name": "승리의 순간",
+     "confidence": "known"
+    }
+   ]
+  },
+  "20": {
+   "character": "클라라",
+   "light_cones": [
+    {
+     "id": "69",
+     "name": "대체할 수 없는 것",
+     "confidence": "known"
+    }
+   ]
+  },
+  "23": {
+   "character": "개척자 • 보존",
+   "light_cones": [
+    {
+     "id": "78",
+     "name": "기억의 소재",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "26": {
+   "character": "경원",
+   "light_cones": [
+    {
+     "id": "73",
+     "name": "동트기 전",
+     "confidence": "known"
+    }
+   ]
+  },
+  "28": {
+   "character": "연경",
+   "light_cones": [
+    {
+     "id": "74",
+     "name": "깊게 든 단잠",
+     "confidence": "known"
+    }
+   ]
+  },
+  "29": {
+   "character": "백로",
+   "light_cones": [
+    {
+     "id": "75",
+     "name": "세월은 흐를 뿐",
+     "confidence": "known"
+    }
+   ]
+  },
+  "710": {
+   "character": "은랑",
+   "light_cones": [
+    {
+     "id": "805",
+     "name": "계속 내리는 비",
+     "confidence": "known"
+    }
+   ]
+  },
+  "711": {
+   "character": "나찰",
+   "light_cones": [
+    {
+     "id": "806",
+     "name": "관의 울림",
+     "confidence": "known"
+    }
+   ]
+  },
+  "789": {
+   "character": "블레이드",
+   "light_cones": [
+    {
+     "id": "1230",
+     "name": "닿을 수 없는 저편",
+     "confidence": "known"
+    }
+   ]
+  },
+  "791": {
+   "character": "카프카",
+   "light_cones": [
+    {
+     "id": "1231",
+     "name": "필요한 건 기다림뿐",
+     "confidence": "known"
+    }
+   ]
+  },
+  "804": {
+   "character": "부현",
+   "light_cones": [
+    {
+     "id": "1399",
+     "name": "그녀는 두 눈을 감았네",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1226": {
+   "character": "단항•음월",
+   "light_cones": [
+    {
+     "id": "1398",
+     "name": "태양보다 밝게 빛나는 것",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1387": {
+   "character": "경류",
+   "light_cones": [
+    {
+     "id": "1545",
+     "name": "이 몸이 검이니",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1389": {
+   "character": "토파즈&복순이",
+   "light_cones": [
+    {
+     "id": "1544",
+     "name": "고민, 그리고 행복",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1533": {
+   "character": "곽향",
+   "light_cones": [
+    {
+     "id": "1602",
+     "name": "섬뜩한 밤",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1535": {
+   "character": "아젠티",
+   "light_cones": [
+    {
+     "id": "1595",
+     "name": "눈에 담긴 순간",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1638": {
+   "character": "완•매",
+   "light_cones": [
+    {
+     "id": "1822",
+     "name": "거울 속 지난날의 나",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1639": {
+   "character": "Dr. 레이시오",
+   "light_cones": [
+    {
+     "id": "1823",
+     "name": "순수 사유의 세례",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1806": {
+   "character": "블랙 스완",
+   "light_cones": [
+    {
+     "id": "1937",
+     "name": "시간의 기억에 대한 재구성",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1807": {
+   "character": "스파클",
+   "light_cones": [
+    {
+     "id": "1936",
+     "name": "속세에서의 유희",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1919": {
+   "character": "아케론",
+   "light_cones": [
+    {
+     "id": "2370",
+     "name": "흘러가는 강가를 따라",
+     "confidence": "known"
+    }
+   ]
+  },
+  "1920": {
+   "character": "어벤츄린",
+   "light_cones": [
+    {
+     "id": "2369",
+     "name": "언제나 불공평한 운명",
+     "confidence": "known"
+    }
+   ]
+  },
+  "2366": {
+   "character": "로빈",
+   "light_cones": [
+    {
+     "id": "2500",
+     "name": "찬란하게 빛나는 밤",
+     "confidence": "known"
+    }
+   ]
+  },
+  "2367": {
+   "character": "부트힐",
+   "light_cones": [
+    {
+     "id": "2501",
+     "name": "두 번째 생명을 향해",
+     "confidence": "known"
+    }
+   ]
+  },
+  "2494": {
+   "character": "반디",
+   "light_cones": [
+    {
+     "id": "2645",
+     "name": "꿈은 어디로 돌아가야 하는가",
+     "confidence": "known"
+    }
+   ]
+  },
+  "2495": {
+   "character": "제이드",
+   "light_cones": [
+    {
+     "id": "2646",
+     "name": "값을 매길 수 없는 건 희망뿐",
+     "confidence": "known"
+    }
+   ]
+  },
+  "2642": {
+   "character": "운리",
+   "light_cones": [
+    {
+     "id": "2956",
+     "name": "해 질 무렵 시작되는 춤",
+     "confidence": "known"
+    }
+   ]
+  },
+  "2643": {
+   "character": "초구",
+   "light_cones": [
+    {
+     "id": "2955",
+     "name": "그 무수한 봄날",
+     "confidence": "known"
+    }
+   ]
+  },
+  "2947": {
+   "character": "비소",
+   "light_cones": [
+    {
+     "id": "3069",
+     "name": "정복하고 사냥하리",
+     "confidence": "known"
+    }
+   ]
+  },
+  "2948": {
+   "character": "영사",
+   "light_cones": [
+    {
+     "id": "3068",
+     "name": "오직 향만이 변함없이",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3057": {
+   "character": "라파",
+   "light_cones": [
+    {
+     "id": "3169",
+     "name": "인법첩•요란 파마",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3150": {
+   "character": "선데이",
+   "light_cones": [
+    {
+     "id": "3288",
+     "name": "대지로 돌아온 비행",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3151": {
+   "character": "망귀인",
+   "light_cones": [
+    {
+     "id": "3292",
+     "name": "먼 길 끝의 귀로",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3285": {
+   "character": "더 헤르타",
+   "light_cones": [
+    {
+     "id": "3331",
+     "name": "추궁할 수 없는 곳을 향해",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3286": {
+   "character": "아글라이아",
+   "light_cones": [
+    {
+     "id": "3330",
+     "name": "시간을 황금으로 엮어",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3287": {
+   "character": "개척자 • 기억",
+   "light_cones": [
+    {
+     "id": "3574",
+     "name": "기억은 영원히 막을 내리지 않는다",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "3322": {
+   "character": "트리비",
+   "light_cones": [
+    {
+     "id": "3576",
+     "name": "시간이 한 송이 꽃이라면",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3324": {
+   "character": "마이데이",
+   "light_cones": [
+    {
+     "id": "3575",
+     "name": "피의 불꽃이여, 앞길을 태워라",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3560": {
+   "character": "카스토리스",
+   "light_cones": [
+    {
+     "id": "3698",
+     "name": "이별이 더 아름답도록",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3561": {
+   "character": "아낙사",
+   "light_cones": [
+    {
+     "id": "3697",
+     "name": "생명은 불태워야 하는 것",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3688": {
+   "character": "히아킨",
+   "light_cones": [
+    {
+     "id": "3775",
+     "name": "무지개가 영원히 하늘에 머물길",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3691": {
+   "character": "사이퍼",
+   "light_cones": [
+    {
+     "id": "3774",
+     "name": "바람에 흩날리는 거짓말",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3767": {
+   "character": "세이버",
+   "light_cones": [
+    {
+     "id": "3900",
+     "name": "보답 없는 왕관",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "3768": {
+   "character": "아처",
+   "light_cones": [
+    {
+     "id": "3901",
+     "name": "이상이 불타는 지옥",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3769": {
+   "character": "파이논",
+   "light_cones": [
+    {
+     "id": "3887",
+     "name": "이와 같이 타오르는 여명",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3885": {
+   "character": "히실렌스",
+   "light_cones": [
+    {
+     "id": "3949",
+     "name": "바다는 왜 노래하는가",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3886": {
+   "character": "케리드라",
+   "light_cones": [
+    {
+     "id": "3950",
+     "name": "황금 피가 새긴 시대",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3956": {
+   "character": "에버나이트",
+   "light_cones": [
+    {
+     "id": "4005",
+     "name": "긴 밤의 별빛에게",
+     "confidence": "known"
+    }
+   ]
+  },
+  "3957": {
+   "character": "단항 • 등황",
+   "light_cones": [
+    {
+     "id": "4006",
+     "name": "끝없는 산과 강을 거치더라도",
+     "confidence": "known"
+    }
+   ]
+  },
+  "4003": {
+   "character": "키레네",
+   "light_cones": [
+    {
+     "id": "4061",
+     "name": "이 순간처럼 영원한 사랑",
+     "confidence": "known"
+    }
+   ]
+  },
+  "4060": {
+   "character": "달리아",
+   "light_cones": [
+    {
+     "id": "4717",
+     "name": "그녀의 불꽃을 잊지 말라",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "4736": {
+   "character": "효광",
+   "light_cones": [
+    {
+     "id": "4779",
+     "name": "그녀가 보기로 결심했을 때",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "4737": {
+   "character": "스파키",
+   "light_cones": [
+    {
+     "id": "4778",
+     "name": "눈부신 파키의 세상",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "4781": {
+   "character": "애쉬베일",
+   "light_cones": [
+    {
+     "id": "5007",
+     "name": "거짓말의 종막",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "4997": {
+   "character": "은랑 LV.999",
+   "light_cones": [
+    {
+     "id": "5218",
+     "name": "갤럭시 시티에 오신 것을 환영합니다",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "5005": {
+   "character": "에바네시아",
+   "light_cones": [
+    {
+     "id": "5219",
+     "name": "다음 꽃피는 계절의 만남",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "5006": {
+   "character": "개척자 • 환락",
+   "light_cones": [
+    {
+     "id": "5008",
+     "name": "넘치는 환락의 축복",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "5217": {
+   "character": "천야 • 블레이드",
+   "light_cones": [
+    {
+     "id": "5340",
+     "name": "연옥을 불사른 새로운 몸",
+     "confidence": "probable"
+    }
+   ]
+  },
+  "5335": {
+   "character": "히메코 • 노바",
+   "light_cones": [
+    {
+     "id": "6574",
+     "name": "별이 밤하늘을 밝힐 때",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "5338": {
+   "character": "길가메시",
+   "light_cones": [
+    {
+     "id": "6576",
+     "name": "보이는 것이 곧 나",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "5339": {
+   "character": "토오사카 린",
+   "light_cones": [
+    {
+     "id": "6575",
+     "name": "고요히 빛나는 불티",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "6565": {
+   "character": "로빈 • 서머레토",
+   "light_cones": [
+    {
+     "id": "10193",
+     "name": "그대는 나아가 노래하리니",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "6566": {
+   "character": "어벤츄린 • 웨이브",
+   "light_cones": [
+    {
+     "id": "10194",
+     "name": "파도에 내던진 한여름",
+     "confidence": "verified"
+    }
+   ]
+  },
+  "10192": {
+   "character": "펄",
+   "light_cones": [
+    {
+     "id": "10394",
+     "name": "내일에 바치는 색채",
+     "confidence": "verified"
+    }
+   ]
+  }
+ },
+ "no_signature": {
+  "2511": "개척자 • 화합 — 전용 광추 없음(웹 확인)"
+ },
+ "pending_data": {
+  "10393": "에이언즈★아하 — 위키 데이터 미완성(내용이 채워지면 전용 광추를 자동 추정한다)"
+ }
+}

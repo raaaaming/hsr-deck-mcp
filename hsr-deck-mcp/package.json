@@ -1,0 +1,30 @@
+{
+  "name": "hsr-deck-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Honkai: Star Rail deck-building MCP server (HoYoWiki data extraction + build calculators) for Vercel",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --import tsx --test test/*.test.ts",
+    "sync-data": "tsx scripts/sync-data.ts",
+    "prebuild": "tsx scripts/sync-data.ts --soft"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.3.0",
+    "mcp-handler": "^2.2.0",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

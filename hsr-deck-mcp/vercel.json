@@ -1,0 +1,26 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "regions": [
+    "sin1"
+  ],
+  "functions": {
+    "app/mcp/route.ts": {
+      "maxDuration": 60
+    },
+    "app/api/call/route.ts": {
+      "maxDuration": 60
+    },
+    "app/api/health/route.ts": {
+      "maxDuration": 30
+    },
+    "app/api/cron/sync/route.ts": {
+      "maxDuration": 60
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/sync",
+      "schedule": "17 3 * * *"
+    }
+  ]
+}
